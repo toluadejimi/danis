@@ -17,7 +17,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">ERIS PORTAL</h2>
+					<h2 class="heading-section">DANIS'S SCHOOL PORTAL</h2>
 				</div>
 			</div>
 			<div class="row justify-content-center">
@@ -35,8 +35,8 @@
 				<form action="login" method="POST" class="signin-form">
                     @csrf
 			      		<div class="form-group mb-3">
-			      			<label class="label" for="name">EMAIL</label>
-			      			<input type="email" class="form-control"  name="email"  placeholder="Email" required>
+			      			<label class="label" for="name">Student ID</label>
+			      			<input type="text" class="form-control"  name="reg_no"  placeholder="Enter Student ID" required>
 			      		</div>
 
 
