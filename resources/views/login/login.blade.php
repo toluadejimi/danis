@@ -36,7 +36,7 @@
                     @csrf
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Student ID</label>
-			      			<input type="text" class="form-control"  name="reg_no"  placeholder="Enter Student ID" required>
+			      			<input type="text" class="form-control"  name="reg_id"  placeholder="Enter Student ID" required>
 			      		</div>
 
 
