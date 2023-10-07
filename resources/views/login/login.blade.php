@@ -35,8 +35,8 @@
 				<form action="login" method="POST" class="signin-form">
                     @csrf
 			      		<div class="form-group mb-3">
-			      			<label class="label" for="name">Student Reg No</label>
-			      			<input type="text" class="form-control"  name="reg_id"  placeholder="Enter Reg No" required>
+			      			<label class="label" for="name">EMAIL</label>
+			      			<input type="email" class="form-control"  name="email"  placeholder="Email" required>
 			      		</div>
 
 
