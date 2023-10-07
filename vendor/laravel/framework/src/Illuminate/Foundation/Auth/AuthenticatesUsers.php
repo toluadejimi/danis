@@ -144,7 +144,7 @@ trait AuthenticatesUsers
      */
     public function username()
     {
-        return 'reg_no';
+        return 'reg_id';
     }
 
     /**
